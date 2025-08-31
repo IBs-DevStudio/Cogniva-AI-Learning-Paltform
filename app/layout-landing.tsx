@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Bricolage_Grotesque } from "next/font/google";
 import "./globals.css";
 import {ClerkProvider} from "@clerk/nextjs";
-import AppNavbarWrapper from "@/components/AppNavbarWrapper";
 
 const bricolage = Bricolage_Grotesque({
   variable: "--font-bricolage",
@@ -10,8 +9,8 @@ const bricolage = Bricolage_Grotesque({
 });
 
 export const metadata: Metadata = {
-  title: "Cogniva",
-  description: "Real-time AI Teaching Platform",
+  title: "Welcome to Cogniva - AI Learning Revolution",
+  description: "Get instant voice tutors for interviews, exams, and learning any subject quickly.",
   icons: {
     icon: '/images/logo.png',
     apple: '/images/logo.png',
@@ -19,7 +18,7 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export default function LandingLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
@@ -28,10 +27,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${bricolage.variable} antialiased`}>
         <ClerkProvider appearance={{variables:{colorPrimary:"#fe5933"}}}>
-          <AppNavbarWrapper />
           {children}
         </ClerkProvider>
-      </body>
+        </body>
     </html>
   );
 }

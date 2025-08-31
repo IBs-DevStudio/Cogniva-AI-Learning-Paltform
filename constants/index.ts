@@ -1,0 +1,97 @@
+export const subjects = [
+  "interview",
+  "coding",
+  "computersciencefundamentals",
+  "math",
+  "science",
+  "communication",
+  "machinelearning",
+];
+
+export const subjectsColors = {
+  interview: "#FF6B8A",
+  coding: "#4ECDC4",
+  computersciencefundamentals: "#45B7D1",
+  math: "#FFA726",
+  science: "#9C27B0",
+  communication: "#66BB6A",
+  machinelearning: "#FF7043",
+};
+
+export const voices = {
+  male: { casual: "2BJW5coyhAzSr8STdHbE", formal: "c6SfcYrb2t09NHXiT80T" },
+  female: { casual: "ZIlrSGI4jZqobxRKprJz", formal: "sarah" },
+};
+ 
+export const recentSessions = [
+  {
+    id: "1",
+    subject: "interview",
+    name: "Ace the Interview Pro",
+    topic: "Behavioral Interview Techniques",
+    duration: 45,
+    color: "#FF6B8A",
+    voice: "female",
+    style: "formal",
+  },
+  {
+    id: "2",
+    subject: "coding",
+    name: "CodeMaster Elite",
+    topic: "Data Structures & Algorithms",
+    duration: 60,
+    color: "#4ECDC4",
+    voice: "male",
+    style: "casual",
+  },
+  {
+    id: "3",
+    subject: "computersciencefundamentals",
+    name: "CS Foundation Expert",
+    topic: "Operating Systems Concepts",
+    duration: 40,
+    color: "#45B7D1",
+    voice: "male",
+    style: "formal",
+  },
+  {
+    id: "4",
+    subject: "math",
+    name: "Math Wizard Pro",
+    topic: "Linear Algebra & Calculus",
+    duration: 35,
+    color: "#FFA726",
+    voice: "female",
+    style: "formal",
+  },
+  {
+    id: "5",
+    subject: "science",
+    name: "Science Explorer",
+    topic: "Quantum Physics Basics",
+    duration: 50,
+    color: "#9C27B0",
+    voice: "female",
+    style: "casual",
+  },
+  {
+    id: "6",
+    subject: "communication",
+    name: "Comm Skills Master",
+    topic: "Public Speaking & Presentation",
+    duration: 30,
+    color: "#66BB6A",
+    voice: "female",
+    style: "formal",
+  },
+  {
+    id: "7",
+    subject: "machinelearning",
+    name: "ML Intelligence Guide",
+    topic: "Neural Networks & Deep Learning",
+    duration: 55,
+    color: "#FF7043",
+    voice: "male",
+    style: "formal",
+  },
+];
