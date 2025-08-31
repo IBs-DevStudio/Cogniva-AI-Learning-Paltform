@@ -5,6 +5,7 @@ import {recentSessions} from "@/constants";
 import {getAllCompanions, getRecentSessions} from "@/lib/actions/companions.action";
 import {getSubjectColor} from "@/lib/utils";
 
+
 const HomePage = async () => {
     let companions: Companion[] = [];
     let recentSessionsCompanions: Companion[] = [];
